@@ -1,1 +1,1 @@
-window.njconfig={apkurl:"https://dl.testfairy.com/download/74W38E9G6MWJTC1DGG3S5MVKZD7WGFXK9X9YHVGMGHT0W7D3/ninja_3.2.0-testfairy.apk",isourl:"https://testflight.apple.com/join/2EccEH6p",qrdltext:"https://sbcproxyer.github.io/dl/"};
+window.njconfig={apkurl:"https://dl.testfairy.com/download/74W3AC1H6GTJTC1D36QT6EZK8JN986A3TA2YDBBQVVZYWVXQ/ninja_3.2.1-testfairy.apk",isourl:"https://testflight.apple.com/join/2EccEH6p",qrdltext:"https://sbcproxyer.github.io/dl/"};
