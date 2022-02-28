@@ -11,6 +11,16 @@
     <meta http-equiv="refresh" content="0;URL='/'"></meta>
     <script>
       sessionStorage.redirect = location.href;
+
+      if(sessionStorage.redirect){
+        var _url = new URL(sessionStorage.redirect)
+        console.log('>>>>>>>>>>>>>>',_url.pathname)
+        if(!/^\/(index|download)(.html)?$/.test(_url.pathname)){
+          sessionStorage.redirect = location.href
+        }
+      }else {
+        sessionStorage.redirect = location.href
+      }
     </script>
   </head>
 <style>
